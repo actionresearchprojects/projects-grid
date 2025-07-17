@@ -65,10 +65,17 @@
     }
 
     .grid a .overlay-text {
-      color: white;
-      font-size: 2em;
+      color: black;
+      font-size: clamp(1rem, 2.5vw, 2rem);
+      font-weight: bold;
+      text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
       opacity: 0;
       transition: opacity 0.3s ease;
+      pointer-events: none;
     }
 
     .grid a:hover .overlay {
@@ -89,7 +96,7 @@
       }
 
       .grid a .overlay-text {
-        font-size: 1.2em;
+        font-size: clamp(0.8rem, 4vw, 1.2rem);
       }
     }
   </style>
@@ -101,28 +108,28 @@
         <source src="icons/video/placeholder.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <div class="overlay"><div class="overlay-text">Placeholder</div></div>
+      <div class="overlay"><div class="overlay-text">Project 1</div></div>
     </a>
     <a href="https://actionresearchprojects.framer.website/cool-buildings-guide/projects/project-1" target="_top">
       <video autoplay loop muted playsinline poster="icons/static/placeholder.jpg">
         <source src="icons/video/placeholder.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <div class="overlay"><div class="overlay-text">Placeholder</div></div>
+      <div class="overlay"><div class="overlay-text">Project 1</div></div>
     </a>
     <a href="https://actionresearchprojects.framer.website/cool-buildings-guide/projects/project-1" target="_top">
       <video autoplay loop muted playsinline poster="icons/static/placeholder.jpg">
         <source src="icons/video/placeholder.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <div class="overlay"><div class="overlay-text">Placeholder</div></div>
+      <div class="overlay"><div class="overlay-text">Project 1</div></div>
     </a>
     <a href="https://actionresearchprojects.framer.website/cool-buildings-guide/projects/project-1" target="_top">
       <video autoplay loop muted playsinline poster="icons/static/placeholder.jpg">
         <source src="icons/video/placeholder.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <div class="overlay"><div class="overlay-text">Placeholder</div></div>
+      <div class="overlay"><div class="overlay-text">Project 1</div></div>
     </a>
   </div>
 </body>
